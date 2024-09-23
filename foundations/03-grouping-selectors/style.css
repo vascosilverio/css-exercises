@@ -1,0 +1,10 @@
+.button{
+    background-color: black;
+    font-size: 28px;
+    color: white;
+}
+
+.button.warning{
+    background-color: yellow;
+    color: black;
+}
