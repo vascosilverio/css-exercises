@@ -1,0 +1,19 @@
+div{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+    color:white;
+}
+
+p{
+    background-color: green;
+    color:white;
+}
+
+button{
+    background-color: rgb(204, 204, 29);
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    font-size: 15px;
+}
+
