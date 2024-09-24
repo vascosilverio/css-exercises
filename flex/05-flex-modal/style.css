@@ -15,14 +15,29 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-weight: bold;
+}
+
 .modal {
+  gap:16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.titlebutton{
+  display: flex;
+  justify-content: space-between;
+  padding:8px;
+}
+
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -34,6 +49,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
 
 .close-button {
   background: #eee;
